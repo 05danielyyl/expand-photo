@@ -1,0 +1,32 @@
+.container {
+  margin: 10% auto;
+}
+
+.box {
+  color: white;
+  background-size: cover;
+  height: 40rem;
+  border-radius: 40px;
+  cursor: pointer;
+  margin: 10px;
+  width: 80px;
+  position: relative;
+  transition: 0.5s;
+}
+
+h3 {
+  font-size: 20px;
+  position: absolute;
+  margin: 0;
+  bottom: 20px;
+  left: 20px;
+  opacity: 0;
+}
+
+.box.active {
+  width: 100%;
+}
+
+.box.active h3 {
+  opacity: 1;
+}
